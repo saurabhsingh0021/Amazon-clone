@@ -97,9 +97,10 @@
 .panel{
     background-color: #222f3d;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     color: #fff;
+    padding-left: 5px;
+    width: 200%;
 }
 .options{
     display:flex;
@@ -113,10 +114,6 @@
 .All{
     color: #fff;
     font-size: 14px;
-}
-.shop-deals{
-    font-size: 18px;
-    font-weight: 200;
 }
 /**complete paragraph**/
 .home{
@@ -409,3 +406,338 @@ ul p{
 .foot-panel4 p{
     font-size: 12px;
 }
+/**start pc linked page**/
+.pc{
+    overflow: hidden;
+}
+.main{
+    display: flex;
+}
+.sidebar{
+    height: 700px;
+    width: 330px;
+    overflow: scroll;
+}
+.sidebar-top{
+    height: 60px;
+    width: 229px;
+    font-size: 16px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.sidebar1{
+    height: 80px;
+    width: 229px;
+    font-size: 16px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.sidebar2{
+    height: 110px;
+    width: 229px;
+    font-size: 16px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.sidebar3{
+    height: 130px;
+    width: 229px;
+    font-size: 16px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.sidebar4{
+    height: 130px;
+    width: 229px;
+    font-size: 16px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.sidebar5{
+    height: 210px;
+    width: 229px;
+    font-size: 16px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.sidebar6{
+    height: 195px;
+    width: 229px;
+    font-size: 16px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.sidebar7{
+    height: 55px;
+    width: 235px;
+    font-size: 16px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.sidebar5-btn{
+    width: 15%;
+    border-radius: 4px;
+}
+.main-content{
+    flex: 1;
+    margin-left: 13px;
+    overflow: scroll;
+    height: 700px;
+}
+.bg-image{
+    background-image: url(pc_background.jpg);
+    background-size: cover;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.main-head{
+    font-size: 14px;
+    color: #0f1111;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.main-head h3{
+    font-size: 20px;
+}
+/**computer lists**/
+.main-com1 img{
+    height: 211px;
+    width: 273px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.main-com1{
+    display: flex;
+    height: 250px;
+    width: 810px;
+    background-color: rgb(253, 244, 244);
+}
+.com1-text{
+    height: 200px;
+    width: 530px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.com1-text a{
+    color: #0f1111;
+}
+.com1-text a:hover{
+    color: blue;
+}
+#main-com1-head{
+    font-size: medium;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.com1-text2{
+    height: 2rem;
+    width: 530px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #565959;
+}
+.com1-text3{
+    height: 45px;
+    width: 530px;
+    display: inline;
+}
+#doller{
+    font-size: 14px;
+    color: #0f1111;
+}
+#price{
+    height: 33px;
+    font-size: 18px;
+    color: #0f1111;
+}
+.com-text4{
+    font-size: 12px;
+    color: #0f1111;
+    margin-top: 5px;
+}
+#stock{
+    color: rgb(235, 154, 4);
+    font-size: 14px;
+}
+.com-text5{
+    height: 30px;
+    width: 90px;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgb(235, 154, 4);
+}
+.com-text5 p{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+}
+/**second computer img**/
+.main-com2 img{
+    height: 211px;
+    width: 273px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.main-com2{
+    display: flex;
+    height: 250px;
+    width: 810px;
+    background-color: rgb(253, 244, 244);
+}
+.com2-text{
+    height: 350px;
+    width: 530px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.com2-text a{
+    color: #0f1111;
+}
+.com2-text a:hover{
+    color: blue;
+}
+#main-com2-head{
+    font-size: medium;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.com2-text2{
+    height: 2rem;
+    width: 530px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #565959;
+}
+.com2-text3{
+    height: 45px;
+    width: 530px;
+    display: inline;
+}
+#doller{
+    font-size: 14px;
+    color: #0f1111;
+}
+#price{
+    height: 33px;
+    font-size: 18px;
+    color: #0f1111;
+}
+.com2-text4{
+    font-size: 12px;
+    color: #0f1111;
+    margin-top: 5px;
+}
+#stock{
+    color: rgb(235, 154, 4);
+    font-size: 14px;
+}
+.com2-text5{
+    height: 30px;
+    width: 90px;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgb(235, 154, 4);
+}
+.com2-text5 p{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+}
+/**copmlete computer 2**/
+.main-com3 img{
+    height: 211px;
+    width: 273px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.main-com3{
+    display: flex;
+    height: 350px;
+    width: 810px;
+    background-color: rgb(253, 244, 244);
+}
+.com3-text{
+    height: 350px;
+    width: 530px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.com3-text a{
+    color: #0f1111;
+}
+.com3-text a:hover{
+    color: red;
+}
+#main-com3-head{
+    font-size: medium;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.com3-text2{
+    height: 2rem;
+    width: 530px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #565959;
+}
+.com3-text3{
+    height: 45px;
+    width: 530px;
+    display: inline;
+}
+#doller{
+    font-size: 14px;
+    color: #0f1111;
+}
+#price{
+    height: 33px;
+    font-size: 18px;
+    color: #0f1111;
+}
+.com3-text4{
+    font-size: 12px;
+    color: #0f1111;
+    margin-top: 5px;
+}
+.com3-text5{
+    height: 30px;
+    width: 90px;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgb(235, 154, 4);
+}
+.com3-text5 p{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+}
+/**complete computer 3**/
+
